@@ -3,84 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal project </title>
-  <link rel="stylesheet" href="./public/grid.css">
+  <title>Personal Project</title>
 </head>
-<body>
-  <div class="container">
-    <div class="name-and-picture" style="background-image:url({{user.tab}});">
-      <div>{{user.fullName}}</div>
-      <img src="{{user.photo}} " alt="Picture" class="profile-picture">
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; width: 100vw; background-color: #f5f5f5;">
+  <div class="container" style="display: grid; grid-template-columns: 1fr; grid-gap: 20px; width: 80%; max-width: 1200px; padding: 20px; background-color: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); overflow-y: auto;">
+    <div class="name-and-picture" style="display: flex; align-items: center; justify-content: center; padding: 20px; background-color: #f0f0f0; border-radius: 10px; background-repeat: no-repeat; background-size: cover; text-align: center; background-image:url({{user.tab}});">
+      <div style="font-size: 24px; color: #fff; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">{{user.fullName}}</div>
+      <img src="{{user.photo}}" alt="Picture" class="profile-picture" style="width: 150px; height: 150px; border-radius: 50%; margin-left: 20px;">
     </div>
 
     <div class="city">
       <h2>{{city.title}}</h2>
       <h3>{{city.cityname}}</h3>
-      <div class="city-description">
-        <img src="{{city.image}}" alt="Paris" class="city-image">
-        <div class="city-text">
+      <div class="city-description" style="display: grid; grid-template-columns: 1fr 2fr; align-items: center; gap: 20px; padding: 20px; border-radius: 10px;">
+        <img src="{{city.image}}" alt="Paris" class="city-image" style="max-width: 100%; height: auto; border-radius: 10px;">
+        <div class="city-text" style="max-width: 100%;">
           {{city.Des}}
         </div>
       </div>
     </div>
     
-    <div class="section languages">
+    <div class="section languages" style="padding: 20px; background-color: #f9f9f9; border-radius: 10px;">
       <h2>{{foreignLanguage.title}}</h2>
       <h3>{{foreignLanguage.language}}</h3>
       <p>{{foreignLanguage.paragraph1}}</p>
-      <table>
+      <table style="width: 100%; border-collapse: collapse;">
         <tr>
-          <th>{{foreignLanguage.T2}}</th>
-          <th>{{foreignLanguage.T1}}</th>
+          <th style="border: 1px solid #ccc; padding: 8px; text-align: left; background-color: #f2f2f2;">{{foreignLanguage.T2}}</th>
+          <th style="border: 1px solid #ccc; padding: 8px; text-align: left; background-color: #f2f2f2;">{{foreignLanguage.T1}}</th>
         </tr>
         <tr>
-          <td>{{foreignLanguage.P1F}}</td>
-          <td>{{foreignLanguage.P1E}}</td>
+          <td style="border: 1px solid #ccc; padding: 8px; text-align: left;">{{foreignLanguage.P1F}}</td>
+          <td style="border: 1px solid #ccc; padding: 8px; text-align: left;">{{foreignLanguage.P1E}}</td>
         </tr>
         <tr>
-          <td>{{foreignLanguage.P2E}}</td>
-          <td>{{foreignLanguage.P2F}}</td>
+          <td style="border: 1px solid #ccc; padding: 8px; text-align: left;">{{foreignLanguage.P2E}}</td>
+          <td style="border: 1px solid #ccc; padding: 8px; text-align: left;">{{foreignLanguage.P2F}}</td>
         </tr>
         <tr>
-          <td>{{foreignLanguage.P3E}}</td>
-          <td>{{foreignLanguage.P3F}}</td>
+          <td style="border: 1px solid #ccc; padding: 8px; text-align: left;">{{foreignLanguage.P3E}}</td>
+          <td style="border: 1px solid #ccc; padding: 8px; text-align: left;">{{foreignLanguage.P3F}}</td>
         </tr>
       </table>
     </div>
     
-    <div class="section subjects">
-      <h2>{{subject.title}}</h2>
-      <div class="subject">
+    <div class="section subjects" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; justify-items: center; padding: 20px; background-color: #f9f9f9; border-radius: 10px;">
+      <div class="subject" style="text-align: center;">
         <h3>{{subject.t1}}</h3>
-        <img src="{{subject.t1p}}" alt="Information Systems">
+        <img src="{{subject.t1p}}" alt="Information Systems" style="width: 100px; height: 100px; border-radius: 10px;">
       </div>
-      <div class="subject">
+      <div class="subject" style="text-align: center;">
         <h3>{{subject.t2}}</h3>
-        <img src="{{subject.t2p}}" alt="Entrepreneurship">
+        <img src="{{subject.t2p}}" alt="Entrepreneurship" style="width: 100px; height: 100px; border-radius: 10px;">
       </div>
-      <div class="subject">
+      <div class="subject" style="text-align: center;">
         <h3>{{subject.t3}}</h3>
-        <img src="{{subject.t3p}}" alt="Development of Software">
+        <img src="{{subject.t3p}}" alt="Development of Software" style="width: 100px; height: 100px; border-radius: 10px;">
       </div>
     </div>
+
     <h2>{{history.title}}</h2>
-    <div class="section historical-places">
-      <div class="historical-place">
-        <img src="{{history.gp}}" alt="Gandhi Square">
+    <div class="section historical-places" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+      <div class="historical-place" style="display: grid; grid-template-columns: 1fr 2fr; align-items: center; gap: 20px;">
+        <img src="{{history.gp}}" alt="Gandhi Square" style="width: 100%; height: auto; border-radius: 10px;">
         <div>
           <h3>{{history.g}}</h3>
-          <p>{{history.gdes}} </p>
+          <p>{{history.gdes}}</p>
         </div>
       </div>
-      <div class="historical-place">
-        <img src="{{history.AP}}" alt="Actonville">
+      <div class="historical-place" style="display: grid; grid-template-columns: 1fr 2fr; align-items: center; gap: 20px;">
+        <img src="{{history.AP}}" alt="Actonville" style="width: 100%; height: auto; border-radius: 10px;">
         <div>
           <h3>{{history.A}}</h3>
           <p>{{history.Ades}}</p>
         </div>
       </div>
-      <div class="historical-place">
-        <img src="{{history.Rp}}" alt="Gold Reef City">
+      <div class="historical-place" style="display: grid; grid-template-columns: 1fr 2fr; align-items: center; gap: 20px;">
+        <img src="{{history.Rp}}" alt="Gold Reef City" style="width: 100%; height: auto; border-radius: 10px;">
         <div>
           <h3>{{history.R}}</h3>
           <p>{{history.Rdes}}</p>
