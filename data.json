@@ -1,0 +1,62 @@
+{
+    "user" : {
+        "hed":"Bajana Ilunga",
+        "title":"Contact Information",
+        "name":"FullName: ",
+        "fullName" : "Bajana Ilunga ",
+        "photo" : "./bajana pic.jpeg",
+        "tab":"./table%20mount.jfif",
+        "phone" : "0786266114",
+        "num":"PhoneNumber :",
+        "em":"email :",
+        "email" : "rilunga323@gmail.com",
+        "add":"Address :",
+        "Address":"27 Side Road Chirsville West turfontein",
+        "des":"Profile",
+        
+        "Decription": "BCOM Information System graduate from the University of Johannesburg. Skilled coder and website developer proficient in various programming languages.Known for translating conceptual ideas into functional and visually appealing websites. Experienced in collaborative teamwork, fostering open communication.Eager to contribute coding expertise and grow professionally in a dynamic organization"
+    },
+
+    "city" : {
+        "title":"Which City",
+        "cityname":"Paris",
+        "Des":"Paris, the capital of France, is my favorite city and dream destination, known for its rich history, stunning architecture, and vibrant culture. Iconic landmarks like the Eiffel Tower and the Louvre Museum draw me in, while the charming streets of Montmartre and the scenic Seine River add to its allure. Paris embodies romance, culture, and history, making it a place I eagerly wish to explore and experience.",
+        "image":"./paris.jfif"
+
+        
+    },
+    "foreignLanguage" : {
+        "title":"foreignLanguage",
+        "paragraph1":"I love French as I grew up in a country that speaks French, and it's really one of my favorite languages.",
+        "T1" : "English Phrase",
+        "T2":"French Phrase",
+        "P1E":" how are you ",
+        "P1F":"Comment vas-tu ",
+        "P2E":"Tu fais quoi",
+        "P2F":" What are you doing",
+        "P3E":"Que Dieu te bénisse",
+        "P3F":"May God bless you "
+    },
+    "subject":
+    { "title":"Subjects",
+    "t1":"Entrepreneurship",
+    "t1p":"./entrepreneurship.jfif",
+    "t2":"Development Of Software",
+    "t2p":"./software.jfif",
+    "t3":"Informtion Systems",
+    "t3p":"./information%20systems.jfif"
+   
+    },
+"history": {
+    "title":"Historical places",
+    "g":"Ghandi Square",
+    "gp":"./Ghandi.jfif",
+    "gdes":"Gandhi Square is a significant place in my daily life, as it’s where I catch the bus to campus and back home. This bustling square has become quite memorable for me, filled with the routine of my everyday commute. Over time, it has grown familiar and comforting, a constant backdrop to my journey through student life. The sights and sounds of Gandhi Square are now intertwined with my daily experiences, making it an important part of my routine.",
+    "A": "Actonneville",
+    "AP":"./Actonneville.jfif",
+    "Ades":"Actonville holds a special place in my heart since I moved to South Africa. Living there, I have created countless memories with friends, family, and loved ones. The time spent in Actonville, filled with laughter and shared experiences, has made it an unforgettable part of my life. It’s a place where I’ve built strong connections and cherished moments, making it deeply memorable for me.",
+    "R":"Gold Reef City",
+    "Rp": "./Gold reef.jfif",
+    "Rdes":"Gold Reef City is an amusement park we visited on a high school trip, creating lasting memories for me. The experience was quite memorable, filled with exciting rides and fun moments with friends."
+}
+}

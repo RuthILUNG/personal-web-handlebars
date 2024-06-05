@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal project </title>
+  <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+  <div class="container">
+    <div class="name-and-picture" style="background-image:url({{user.tab}});">
+      <div>{{user.fullName}}</div>
+      <img src="{{user.photo}} " alt="Picture" class="profile-picture">
+    </div>
+
+    <div class="city">
+      <h2>{{city.title}}</h2>
+      <h3>{{city.cityname}}</h3>
+      <div class="city-description">
+        <img src="{{city.image}}" alt="Paris" class="city-image">
+        <div class="city-text">
+          {{city.Des}}
+        </div>
+      </div>
+    </div>
+    
+    <div class="section languages">
+      <h2>{{foreignLanguage.title}}</h2>
+      <h3>{{foreignLanguage.language}}</h3>
+      <p>{{foreignLanguage.paragraph1}}</p>
+      <table>
+        <tr>
+          <th>{{foreignLanguage.T2}}</th>
+          <th>{{foreignLanguage.T1}}</th>
+        </tr>
+        <tr>
+          <td>{{foreignLanguage.P1F}}</td>
+          <td>{{foreignLanguage.P1E}}</td>
+        </tr>
+        <tr>
+          <td>{{foreignLanguage.P2E}}</td>
+          <td>{{foreignLanguage.P2F}}</td>
+        </tr>
+        <tr>
+          <td>{{foreignLanguage.P3E}}</td>
+          <td>{{foreignLanguage.P3F}}</td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class="section subjects">
+      <h2>{{subject.title}}</h2>
+      <div class="subject">
+        <h3>{{subject.t1}}</h3>
+        <img src="{{subject.t1p}}" alt="Information Systems">
+      </div>
+      <div class="subject">
+        <h3>{{subject.t2}}</h3>
+        <img src="{{subject.t2p}}" alt="Entrepreneurship">
+      </div>
+      <div class="subject">
+        <h3>{{subject.t3}}</h3>
+        <img src="{{subject.t3p}}" alt="Development of Software">
+      </div>
+    </div>
+    <h2>{{history.title}}</h2>
+    <div class="section historical-places">
+      <div class="historical-place">
+        <img src="{{history.gp}}" alt="Gandhi Square">
+        <div>
+          <h3>{{history.g}}</h3>
+          <p>{{history.gdes}} </p>
+        </div>
+      </div>
+      <div class="historical-place">
+        <img src="{{history.AP}}" alt="Actonville">
+        <div>
+          <h3>{{history.A}}</h3>
+          <p>{{history.Ades}}</p>
+        </div>
+      </div>
+      <div class="historical-place">
+        <img src="{{history.Rp}}" alt="Gold Reef City">
+        <div>
+          <h3>{{history.R}}</h3>
+          <p>{{history.Rdes}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
